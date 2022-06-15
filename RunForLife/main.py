@@ -179,7 +179,7 @@ while True:
         
         pygame.display.update()
 
-        # Kiem tra neu co nhung con ho va cham nhan vat
+        # Kiem tra neu ho va cham nhan vat
         if playerHasHitTiger(playerRect, tigers):
             if score > topScore:
                 topScore = score # thiet lap diem cao nhat moi
